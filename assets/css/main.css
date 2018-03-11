@@ -1,12 +1,89 @@
 body {
 	padding:0;
-	margin:0;
+  margin:0;
+  overflow-y: hidden;
 }
 
-img {
-	width: 50%;
+.user {
+  width: 26%;
+  padding-top: 40px;
 }
 
 .text {
 	width: 35% !important;
 }
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.412);
+  }
+
+img {
+  /* width: 100%;
+  height: auto; */
+    /* filter: blur(4px); */
+    /* filter: brightness(250%); */
+    /* filter: contrast(180%); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(50%); */
+    /* filter: saturate(7); */
+    /* filter: sepia(100%); */
+    /* filter: drop-shadow(8px 8px 10px green); */
+}
+
+.img {
+  background-image: url(../img/ehud-neuhaus-191867-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.presentacion {
+  color: #fff;
+}
+
+.borde {
+  border: 2px solid #fff !important;
+  background-color: #00000017 !important;
+  border-radius: 0 !important;
+  width: 100px !important;
+  margin: auto;
+}
+
+.fixed-action-btn {
+  right: unset !important;
+  bottom: unset !important;
+  padding-top: unset !important;
+  margin-bottom: 0;
+  z-index: unset !important;
+}
+
+.colorBar {
+  background-color: #000;
+  color: #fff;
+}
+
+#sobreMi {
+  height: 100vh;
+}
+
+.sec {
+  padding: 40px !important;
+}
+
+#habilidades {
+  height: 100vh;
+}
+
+#proyecto {
+  height: 100vh;
+}
+
+#contacto {
+  height: 100vh;
+}
+
