@@ -9,6 +9,15 @@ body {
   padding-top: 40px;
 }
 
+@media (max-width: 750px) {
+  .user {
+    width: 40%;
+  }  
+  .fixed-action-btn {
+    left: unset!important;
+  }
+}
+
 .text {
 	width: 35% !important;
 }
@@ -47,19 +56,20 @@ img {
 }
 
 .borde {
-  border: 2px solid #fff !important;
-  background-color: #00000017 !important;
-  border-radius: 0 !important;
-  width: 100px !important;
+  /* border: 2px solid #fff !important; */
+  background-color: #888484 !important;
+  /* border-radius: 0 !important; */
+  /* width: 100px !important; */
   margin: auto;
 }
 
 .fixed-action-btn {
   right: unset !important;
-  bottom: unset !important;
+  /* bottom: unset !important; */
   padding-top: unset !important;
   margin-bottom: 0;
-  z-index: unset !important;
+  /* z-index: unset !important; */
+  /* left: 43em; */
 }
 
 .colorBar {
@@ -87,3 +97,6 @@ img {
   height: 100vh;
 }
 
+.atras {
+  margin: 10px;
+}

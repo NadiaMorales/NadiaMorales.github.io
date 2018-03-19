@@ -15,18 +15,31 @@
     <div class="row img">
       <div class="row center-align">
         <img class="responsive-img circle user" src="https://cdn.pixabay.com/photo/2014/03/25/16/54/user-297566_960_720.png" alt="mi foto">
-        <div class="col s6 offset-s3 center-align presentacion">
+        <div class="col s12 col m6 offset-m3 center-align presentacion">
           <div class="divider"></div>
-          <h1>Nadia Morales</h1>
+          <h1 style="font-size: 6em;">Nadia Morales</h1>
           <h4>Front-end developers</h4>
           <div class="divider"></div>
         </div>
       </div>
       <div class="row">
         <div class="col s6 offset-s5">
+            <!-- <div class="fixed-action-btn horizontal" style="position: absolute; display: inline-block; right: 24px;">
+                <a class="btn-floating btn-large red">
+                  <i class="large material-icons">mode_edit</i>
+                </a>
+                <ul>
+                  <li><a href="#home" class="btn-floating red" style="transform: scaleY(0.4) scaleX(0.4) translateY(0px) translateX(40px); opacity: 0;"><i class="material-icons">home</i></a></li>
+                  <li><a href="#sobreMi" class="btn-floating yellow darken-1" style="transform: scaleY(0.4) scaleX(0.4) translateY(0px) translateX(40px); opacity: 0;"><i class="material-icons">info</i></a></li>
+                  <li><a  href="#habilidades" class="btn-floating green" style="transform: scaleY(0.4) scaleX(0.4) translateY(0px) translateX(40px); opacity: 0;"><i class="material-icons">lightbulb_outline</i></a></li>
+                  <li><a href="#proyecto" class="btn-floating blue" style="transform: scaleY(0.4) scaleX(0.4) translateY(0px) translateX(40px); opacity: 0;"><i class="material-icons">code</i></a></li>
+                  <li><a href="#contacto" class="btn-floating blue" style="transform: scaleY(0.4) scaleX(0.4) translateY(0px) translateX(40px); opacity: 0;"><i class="material-icons">contact_phone</i></a></li>
+                </ul>
+              </div> -->
+          <!-- boton -->
           <div class="fixed-action-btn toolbar" data-origin-bottom="77" data-origin-left="660" data-origin-width="56" data-open="false"
             style="transition: transform 0.2s; transform: translate3d(0px, 0px, 0px);">
-            <a class="btn-floating btn-large borde" style="transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19); transform: translate3d(0px, 0px, 0px);">
+            <a class="btn-floating btn-large borde pulse" style="transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19); transform: translate3d(0px, 0px, 0px);">
               <i class="large material-icons">
                 <font style="vertical-align: inherit;">
                   <font style="vertical-align: inherit;">menu</font>
@@ -35,57 +48,60 @@
             </a>
             <ul class="colorBar">
               <li class="waves-effect waves-light">
-                <a href="#home" style="">Home
+                <a href="#home" style="">
                   <i class="material-icons">
                     <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">&nbsp home</font>
+                      <font style="vertical-align: inherit;">home</font>
                     </font>
                   </i>
                 </a>
               </li>
               <li class="waves-effect waves-light">
-                  <a href="#sobreMi" style="">Sobre mi
+                  <a href="#sobreMi" style="">
                     <i class="material-icons">
                       <font style="vertical-align: initial;">
-                        <font style="vertical-align: inherit;">&nbsp info</font>
+                        <font style="vertical-align: inherit;">info</font>
                       </font>
                     </i>
                   </a>
                 </li>
               <li class="waves-effect waves-light">
-                <a href="#habilidades" style="">Habilidades
+                <a href="#habilidades" style="">
                   <i class="material-icons">
                     <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">&nbsp lightbulb_outline</font>
+                      <font style="vertical-align: inherit;">lightbulb_outline</font>
                     </font>
                   </i>
                 </a>
               </li>
               <li class="waves-effect waves-light">
-                <a href="#proyecto" style="">Proyectos
+                <a href="#proyecto" style="">
                   <i class="material-icons">
                     <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">&nbsp code</font>
+                      <font style="vertical-align: inherit;">code</font>
                     </font>
                   </i>
                 </a>
               </li>
               <li class="waves-effect waves-light">
-                <a href="#contacto" style="">Contacto
+                <a href="#contacto" style="">
                   <i class="material-icons">
                     <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">&nbsp contact_phone</font>
+                      <font style="vertical-align: inherit;">contact_phone</font>
                     </font>
                   </i>
                 </a>
               </li>
             </ul>
-          </div>
+          </div> 
+          <!-- boton -->
+          
         </div>
       </div>
     </div>
   </section>
   <section id="sobreMi">
+      <a href="#home" class="btn-floating btn-large waves-effect waves-light grey atras"><i class="material-icons">keyboard_backspace</i></a>
     <div class="container">
       <div class="row">
         <div class="col s12 sec">
@@ -103,8 +119,13 @@
       </div>
     </div>
   </section>
-  <section id="habilidades"></section>
+  <div class="divider"></div>
+  <section id="habilidades">
+      <a href="#sobreMi" class="btn-floating btn-large waves-effect waves-light grey atras"><i class="material-icons">keyboard_backspace</i></a>
+  </section>
+  <div class="divider"></div>
   <section id="proyecto">
+      <a href="#habilidades" class="btn-floating btn-large waves-effect waves-light grey atras"><i class="material-icons">keyboard_backspace</i></a>
     <div class="row">
       <div class="col s12 m4">
         <div class="card">
@@ -153,7 +174,10 @@
       </div>
     </div>
   </section>
-  <section id="contacto"></section>
+  <div class="divider"></div>
+  <section id="contacto">
+      <a href="#proyecto" class="btn-floating btn-large waves-effect waves-light grey atras"><i class="material-icons">keyboard_backspace</i></a>
+  </section>
 
 
 
