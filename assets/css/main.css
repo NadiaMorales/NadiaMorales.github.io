@@ -14,7 +14,7 @@ body {
     width: 40%;
   }  
   .fixed-action-btn {
-    left: unset!important;
+    /* left: unset!important; */
   }
 }
 
@@ -99,4 +99,8 @@ img {
 
 .atras {
   margin: 10px;
+}
+
+.user2 {
+  width: 52%;
 }
