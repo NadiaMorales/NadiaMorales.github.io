@@ -13,8 +13,12 @@ body {
   .user {
     width: 40%;
   }  
+}
+
+@media (min-width: 750px) {
+/* tamaño desktop y colocar left 43(76) */
   .fixed-action-btn {
-    /* left: unset!important; */
+    left: 43em;
   }
 }
 
