@@ -66,6 +66,7 @@ body {
 
 #sobreMi {
   height: 100vh;
+  overflow-y: scroll;
 }
 
 #habilidades {
