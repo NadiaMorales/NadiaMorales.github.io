@@ -46,10 +46,11 @@ body {
 
 .presentacion {
   color: #fff;
+  margin-top: 29vh;
 }
 
-.borde {
-  background-color: #888484 !important;
+.borde {   
+  background-color: #777696 !important;
   margin: auto;
 }
 
@@ -59,8 +60,8 @@ body {
   margin-bottom: 0;
 }
 
-.colorBar {
-  background-color: #000;
+.colorBar {   
+  background-color: #b39eb5;
   color: #fff;
 }
 
@@ -95,6 +96,7 @@ body {
 .atras {
   margin-top: 10px;
   margin-left: 10px;
+  background-color: #777696 !important;
 }
 
 .user2 {
@@ -108,4 +110,8 @@ body {
   font-weight: 400!important;
   background-color: #0000003b;
   width: 100%;
+}
+
+.colorBtn {
+  background-color: #66b2b2!important;
 }
