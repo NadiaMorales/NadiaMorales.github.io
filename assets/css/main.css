@@ -20,7 +20,7 @@ body {
   } 
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
   .fixed-action-btn {
     left: 43em;
   }
@@ -33,8 +33,8 @@ body {
 #particles-js{
 	width: 100%;
 	height: 100%;
-	position: fixed;
-	background: rgba(0, 0, 0, 0.412);
+  position: fixed;
+  /* z-index: -1; */
   }
 
 .img {
@@ -114,4 +114,12 @@ body {
 
 .colorBtn {
   background-color: #66b2b2!important;
+}
+
+.h5 {
+  padding-top: 30px;
+}
+
+.card-content {
+  height: 19vh;
 }

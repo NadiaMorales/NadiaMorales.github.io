@@ -59,7 +59,7 @@ particlesJS('particles-js',
           "size_min": 0.3,
           "sync": false
         }
-      }, // aqui voy
+      }, 
       "line_linked": {
         "enable": false,
         "distance": 150,
@@ -85,11 +85,11 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "bubble"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "resize": true
