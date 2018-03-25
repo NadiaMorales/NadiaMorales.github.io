@@ -1,11 +1,11 @@
-$(document).ready(()=>{
+$(document).ready(() => {
     $('#sobreMi').hide();
     $('#habilidades').hide();
     $('#proyecto').hide();
     $('#contacto').hide();
 });
 
-$('.home').click(() =>{
+$('.home').click(() => {
     $('#sobreMi').hide();
     $('#habilidades').hide();
     $('#proyecto').hide();
@@ -13,7 +13,7 @@ $('.home').click(() =>{
     $('#home').show();
 });
 
-$('.sobreMi').click(() =>{
+$('.sobreMi').click(() => {
     $('#home').hide();
     $('#habilidades').hide();
     $('#proyecto').hide();
@@ -21,7 +21,7 @@ $('.sobreMi').click(() =>{
     $('#sobreMi').show();
 });
 
-$('.habilidades').click(() =>{
+$('.habilidades').click(() => {
     $('#home').hide();
     $('#sobreMi').hide();
     $('#proyecto').hide();
@@ -29,7 +29,7 @@ $('.habilidades').click(() =>{
     $('#habilidades').show();
 });
 
-$('.proyecto').click(() =>{
+$('.proyecto').click(() => {
     $('#home').hide();
     $('#sobreMi').hide();
     $('#habilidades').hide();
@@ -37,7 +37,7 @@ $('.proyecto').click(() =>{
     $('#proyecto').show();
 });
 
-$('.contacto').click(() =>{
+$('.contacto').click(() => {
     $('#home').hide();
     $('#sobreMi').hide();
     $('#habilidades').hide();
@@ -45,7 +45,7 @@ $('.contacto').click(() =>{
     $('#contacto').show();
 });
 
-$('.atras').click(() =>{
+$('.atras').click(() => {
     $('#sobreMi').hide();
     $('#habilidades').hide();
     $('#proyecto').hide();
@@ -53,7 +53,7 @@ $('.atras').click(() =>{
     $('#home').show();
 })
 
-$('.atras2').click(() =>{
+$('.atras2').click(() => {
     $('#home').hide();
     $('#habilidades').hide();
     $('#proyecto').hide();
@@ -61,7 +61,7 @@ $('.atras2').click(() =>{
     $('#sobreMi').show();
 });
 
-$('.atras3').click(() =>{
+$('.atras3').click(() => {
     $('#home').hide();
     $('#sobreMi').hide();
     $('#proyecto').hide();
@@ -69,11 +69,10 @@ $('.atras3').click(() =>{
     $('#habilidades').show();
 });
 
-$('.atras4').click(() =>{
+$('.atras4').click(() => {
     $('#home').hide();
     $('#sobreMi').hide();
     $('#habilidades').hide();
     $('#contacto').hide();
     $('#proyecto').show();
 });
-
