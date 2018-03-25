@@ -16,8 +16,7 @@
 <body>
     
   <section id="home">
-    <!-- <div id="particles-js"></div> -->
-    <div class="row img">
+    <div class="container-fluid img">
       <div class="row center-align">
         <div class="col s12 col m6 offset-m3 center-align presentacion">
           <div class="divider"></div>
@@ -26,74 +25,11 @@
           <div class="divider"></div>
         </div>
       </div>
-      <div class="row">
-        <div class="col s6 offset-s5">
-          <!-- boton -->
-          <div class="fixed-action-btn toolbar" data-origin-bottom="77" data-origin-left="660" data-origin-width="56" data-open="false"
-            style="transition: transform 0.2s; transform: translate3d(0px, 0px, 0px);">
-            <a class="btn-floating btn-large borde pulse" style="transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19); transform: translate3d(0px, 0px, 0px);">
-              <i class="large material-icons">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">menu</font>
-                </font>
-              </i>
-            </a>
-            <ul class="colorBar">
-              <li class="waves-effect waves-light">
-                <a href="#home" style="">
-                  <i class="material-icons">
-                    <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">home</font>
-                    </font>
-                  </i>
-                </a>
-              </li>
-              <li class="waves-effect waves-light">
-                <a href="#sobreMi" style="">
-                  <i class="material-icons">
-                    <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">info</font>
-                    </font>
-                  </i>
-                </a>
-              </li>
-              <li class="waves-effect waves-light">
-                <a href="#habilidades" style="">
-                  <i class="material-icons">
-                    <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">lightbulb_outline</font>
-                    </font>
-                  </i>
-                </a>
-              </li>
-              <li class="waves-effect waves-light">
-                <a href="#proyecto" style="">
-                  <i class="material-icons">
-                    <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">code</font>
-                    </font>
-                  </i>
-                </a>
-              </li>
-              <li class="waves-effect waves-light">
-                <a href="#contacto" style="">
-                  <i class="material-icons">
-                    <font style="vertical-align: initial;">
-                      <font style="vertical-align: inherit;">contact_phone</font>
-                    </font>
-                  </i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- boton -->
-        </div>
-      </div>
     </div>
   </section>
   <!-- sobre mi -->
   <section id="sobreMi">
-    <a href="#home" class="btn-floating btn-large waves-effect waves-light atras">
+    <a class="btn-floating btn-large waves-effect waves-light atras">
       <i class="material-icons">keyboard_backspace</i>
     </a>
     <div class="container">
@@ -111,10 +47,9 @@
       </div>
     </div>
   </section>
-  <div class="divider"></div>
   <!-- habilidades -->
   <section id="habilidades">
-    <a href="#sobreMi" class="btn-floating btn-large waves-effect waves-light atras">
+    <a class="btn-floating btn-large waves-effect waves-light atras atras2">
       <i class="material-icons">keyboard_backspace</i>
     </a>
 
@@ -160,10 +95,9 @@
       </div>
     </div>
   </section>
-  <div class="divider"></div>
   <!-- proyectos -->
   <section id="proyecto">
-    <a href="#habilidades" class="btn-floating btn-large waves-effect waves-light atras">
+    <a class="btn-floating btn-large waves-effect waves-light atras atras3">
       <i class="material-icons">keyboard_backspace</i>
     </a>
     <h3 class="center-align">Proyectos</h3>
@@ -220,14 +154,13 @@
       </div>
     </div>
   </section>
-  <div class="divider"></div>
   <!-- contacto -->
   <section id="contacto">
-    <a href="#proyecto" class="btn-floating btn-large waves-effect waves-light atras">
+    <a class="btn-floating btn-large waves-effect waves-light atras atras4">
       <i class="material-icons">keyboard_backspace</i>
     </a>
-    <div class="container">
-      <h1 class="center-align">Contáctame</h1>
+    <div class="center-align">
+      <h1>Contáctame</h1>
       <br>
       <br>
       <div class="row center-align fondo">
@@ -250,11 +183,73 @@
       </div>
     </div>
   </section>
+  <div class="row">
+      <div class="col s6 offset-s5">
+        <!-- boton -->
+        <div class="fixed-action-btn toolbar" data-origin-bottom="77" data-origin-left="660" data-origin-width="56" data-open="false"
+          style="transition: transform 0.2s; transform: translate3d(0px, 0px, 0px);">
+          <a class="btn-floating btn-large borde pulse" style="transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19); transform: translate3d(0px, 0px, 0px);">
+            <i class="large material-icons">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">menu</font>
+              </font>
+            </i>
+          </a>
+          <ul class="colorBar">
+            <li class="waves-effect waves-light home">
+              <a style="">
+                <i class="material-icons">
+                  <font style="vertical-align: initial;">
+                    <font style="vertical-align: inherit;">home</font>
+                  </font>
+                </i>
+              </a>
+            </li>
+            <li class="waves-effect waves-light sobreMi">
+              <a style="">
+                <i class="material-icons">
+                  <font style="vertical-align: initial;">
+                    <font style="vertical-align: inherit;">info</font>
+                  </font>
+                </i>
+              </a>
+            </li>
+            <li class="waves-effect waves-light habilidades">
+              <a style="">
+                <i class="material-icons">
+                  <font style="vertical-align: initial;">
+                    <font style="vertical-align: inherit;">lightbulb_outline</font>
+                  </font>
+                </i>
+              </a>
+            </li>
+            <li class="waves-effect waves-light proyecto">
+              <a style="">
+                <i class="material-icons">
+                  <font style="vertical-align: initial;">
+                    <font style="vertical-align: inherit;">code</font>
+                  </font>
+                </i>
+              </a>
+            </li>
+            <li class="waves-effect waves-light contacto">
+              <a style="">
+                <i class="material-icons">
+                  <font style="vertical-align: initial;">
+                    <font style="vertical-align: inherit;">contact_phone</font>
+                  </font>
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- boton -->
+      </div>
+    </div>
   <!-- script -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="assets/js/particles.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 

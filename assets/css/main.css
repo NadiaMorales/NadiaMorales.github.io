@@ -1,6 +1,10 @@
 body {
 	padding:0;
   margin:0;
+  overflow-y: auto;
+}
+
+#home {
   overflow-y: hidden;
 }
 
@@ -24,6 +28,9 @@ body {
   .fixed-action-btn {
     left: 43em;
   }
+  body {
+    overflow-y: hidden;
+  }
 }
 
 .text {
@@ -46,7 +53,7 @@ body {
 
 .presentacion {
   color: #fff;
-  margin-top: 23vh;
+  margin-top: 29vh;
 }
 
 .borde {   
@@ -66,27 +73,27 @@ body {
 }
 
 #sobreMi {
-  height: 100vh;
-  overflow-y: scroll;
+  /* height: 100vh; */
+  /* overflow-y: scroll; */
 }
 
 #habilidades {
-  height: 100vh;
-  overflow-y: scroll;
+  /* height: 100vh; */
+  overflow-y: auto;
 }
 
 .icon {
-  margin-top: 0.2em;
+  margin-top: 0.4em;
   font-size: 5em;
 }
 
 #proyecto {
-  height: 100vh;
-  overflow-y: scroll;
+  /* height: 100vh; */
+  overflow-y: auto;
 }
 
 #contacto {
-  height: 100vh;
+  overflow-y: auto;
 }
 
 .fondo {
