@@ -51,7 +51,7 @@ $('.atras').click(() => {
     $('#proyecto').hide();
     $('#contacto').hide();
     $('#home').show();
-})
+});
 
 $('.atras2').click(() => {
     $('#home').hide();
